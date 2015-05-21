@@ -19,10 +19,8 @@ router.post('/', function(req, res) {
      console.log(messages);
     _.each(messages, function(message) {
         console.log(message);
-	    if (error) {
-            handleError(res, error) 
-	    }
 	});
+  res.render('index', { title: 'Mandrill Relay' });
 });
 
 module.exports = router;
