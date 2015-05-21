@@ -1,0 +1,9 @@
+{
+    key: ""
+    forwarders : [
+        {
+            from: "*@zelosi.com"
+            to: "pigottd@gmail.com"
+        }
+    ]
+}
