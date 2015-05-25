@@ -1,9 +1,9 @@
 {
-    key: ""
-    forwarders : [
+    "key": "api-key-goes-here"
+    "forwarders" : [
         {
-            from: "*@zelosi.com"
-            to: "pigottd@gmail.com"
+            "from": "*@example.com"
+            "to": "example@gmail.com"
         }
     ]
 }

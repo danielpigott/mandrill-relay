@@ -14,8 +14,7 @@
     "debug": "~2.0.0",
     "jade": "~1.6.0",
     "lodash": "~3.9.1",
-    "mandrill": "~0.1.0",
-    "yaml": "~0.2.3",
+    "node-mandrill": "~1.0.1",
     "config.json": "0.0.4"
   }
 }
