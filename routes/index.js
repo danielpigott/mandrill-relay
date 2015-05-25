@@ -44,17 +44,15 @@ router.post('/', function(req, res) {
           };
           mandrill('/messages/send', { message: relayMessage}, function(error, response) {
               if (error) {
-                handleError(res, error);
+                console.log(error.message);
               } else {
-                res.json(response);
+                console.log(JSON.stringify(response));
               }
           });
         }
       });
-      if (sent === false) {
-        handleError(res, {message: util.format('Forwarder not found for %s', message.msg.email)});
-      }
   });
+  res.send('ok');
 });
 
 module.exports = router;
