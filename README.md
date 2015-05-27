@@ -6,8 +6,8 @@ Simple forwarder for mandrill written in node js
 ## Install
 Clone this repository and run npm install
 ```
-git clone https://github.com/danielpigott/cloudflare-cli.git
-cd cloudflare-cli
+git clone https://github.com/danielpigott/mandrill-relay.git
+cd mandrill-relay
 npm install
 ```
 
