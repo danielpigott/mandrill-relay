@@ -18,10 +18,10 @@ Under forwarders change example.com to your registered domain
 Change example@gmail.com to your personal email address
 ```json
 {
-    "key": "api-key-goes-here"
+    "key": "api-key-goes-here",
     "forwarders" : [
         {
-            "from": "*@example.com"
+            "from": "*@example.com",
             "to": "example@gmail.com"
         }
     ]
