@@ -5,7 +5,8 @@
     "forwarders" : [
         {
             "from" : "*@example.com",
-            "to" : "example@gmail.com"
+            "to" : "example@gmail.com",
+            "authKey" : "key-for-mandrill-route"
         }
     ]
 }
