@@ -1,9 +1,11 @@
 {
-    "key": "api-key-goes-here",
+    "key" : "api-key-goes-here",
+    "auth" : true,
+    "url" : "http://webhook@example.com",
     "forwarders" : [
         {
-            "from": "*@example.com",
-            "to": "example@gmail.com"
+            "from" : "*@example.com",
+            "to" : "example@gmail.com"
         }
     ]
 }
